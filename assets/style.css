@@ -5,6 +5,7 @@
 
 h2 {
     float: left;
+    position: fixed;
 }
 
 nav a {
@@ -16,6 +17,9 @@ nav {
     float: right;
     font-size: 100%;
     margin-top: 20px;
+    top: 26px;
+    height: 200px;
+    position: sticky;
 }
 
 .clearfloat{
