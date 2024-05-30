@@ -6,6 +6,9 @@
 h2 {
     float: left;
     position: fixed;
+    z-index: 10;
+    background-image: url("image/bg1.jpg");
+    background-size: cover;
 }
 
 nav a {
@@ -18,8 +21,10 @@ nav {
     font-size: 100%;
     margin-top: 20px;
     top: 26px;
-    height: 200px;
+    height: 60px;
     position: sticky;
+    z-index: 10;
+    background-image: url("image/bg1.jpg");
 }
 
 .clearfloat{
@@ -35,6 +40,7 @@ nav ul {
     padding: 0;
     margin: 0;
     list-style: none;
+    z-index: 10;
 }
   
 nav ul li {
@@ -42,6 +48,7 @@ nav ul li {
     width: 110px;
     height: auto;
     border: 1px solid white;
+    z-index: 10;
 }
   
 nav ul li a {
@@ -50,9 +57,11 @@ nav ul li a {
     color: black;
     text-decoration: none;
     text-align: center;
+    z-index: 10;
 }
   
 nav ul li:hover a {
     color: gray;
+    z-index: 10;
 }
   

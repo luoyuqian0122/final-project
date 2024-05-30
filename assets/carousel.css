@@ -1,20 +1,13 @@
-* {
-    box-sizing: border-box
-}
-
 body {
     user-select: none;
 }
 
-img {
-    height: 400px;
-}
 
 .container {
-    width: 450px;
-    height: 410px;
+    width: 1200px;
+    height: 700px;
     position: relative;
-    margin: auto;
+    z-index: 1;
 }
 
 .slide {
@@ -31,8 +24,6 @@ img {
     cursor: pointer;
     position: absolute;
     top: 50%;
-    margin-top: -30px;
-    padding: 16px;
     font-weight: bold;
     font-size: 18px;
     border-radius: 0 3px 3px 0;
