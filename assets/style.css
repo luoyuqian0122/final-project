@@ -2,14 +2,18 @@
     box-sizing: border-box;
 }
 
-h2 {
+.title {
     float: left;
     position: fixed;
     z-index: 10;
     background-color: white;
-    width: 600px;
-    height: 58px;
-    
+    width: 1000px;
+    font-size: 28px;
+    margin-top: -7px;
+    height: 59px;
+    padding-left: 30px;
+    padding-top: 5px;
+
 }
 
 nav a {
@@ -20,7 +24,7 @@ nav a {
 nav {
     float: right;
     font-size: 100%;
-    top: 26px;
+    top: 0;
     height: 60px;
     position: sticky;
     z-index: 10;
