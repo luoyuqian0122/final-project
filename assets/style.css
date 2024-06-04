@@ -93,3 +93,18 @@ nav ul li:hover a {
 #product {
     text-align: center;
 }
+
+.container2{
+    text-align: center;
+    background-color: rgba(226, 226, 226, 0.726);
+    padding: 50px;
+}
+.productbg{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(228, 184, 255, 0), rgba(255, 255, 255, 0.75), rgba(0,0,0,0));
+}
+
+td img{
+    width: 90%;
+}
