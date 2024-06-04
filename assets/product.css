@@ -1,0 +1,11 @@
+.productmain{
+    display: flex;
+}
+
+.productimg img{
+    width: 40%;
+}
+
+.productdetail{
+    width: 50%;
+}

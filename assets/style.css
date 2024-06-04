@@ -2,35 +2,7 @@
     box-sizing: border-box;
 }
 
-.title {
-    float: left;
-    position: fixed;
-    z-index: 10;
-    background-color: white;
-    width: 1000px;
-    font-size: 28px;
-    margin-top: -7px;
-    height: 59px;
-    padding-left: 30px;
-    padding-top: 5px;
 
-}
-
-nav a {
-    display: inline-block;
-    padding: 15px 16px;
-}
-
-nav {
-    float: right;
-    font-size: 100%;
-    top: 0;
-    height: 60px;
-    position: sticky;
-    z-index: 10;
-    background-color: white;
-    width: 600px;
-}
 
 .clearfloat{
     clear: both;
@@ -38,36 +10,6 @@ nav {
 
 #origintor {
     text-align: center;
-}
-
-nav ul {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    z-index: 10;
-}
-  
-nav ul li {
-    display: inline-block;
-    width: 110px;
-    height: auto;
-    border: 1px solid white;
-    z-index: 10;
-}
-  
-nav ul li a {
-    display: block;
-    padding-top: 5px;
-    color: black;
-    text-decoration: none;
-    text-align: center;
-    z-index: 10;
-}
-  
-nav ul li:hover a {
-    color: gray;
-    z-index: 10;
 }
 
 .container1 {
