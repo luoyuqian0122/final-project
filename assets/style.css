@@ -2,36 +2,6 @@
     box-sizing: border-box;
 }
 
-.title {
-    float: left;
-    position: fixed;
-    z-index: 10;
-    background-color: white;
-    width: 1000px;
-    font-size: 28px;
-    margin-top: -8px;
-    height: 59px;
-    padding-left: 30px;
-    padding-top: 6px;
-
-}
-
-nav a {
-    display: inline-block;
-    padding: 15px 16px;
-}
-
-nav {
-    float: right;
-    font-size: 100%;
-    top: 0;
-    height: 60px;
-    position: sticky;
-    z-index: 10;
-    background-color: white;
-    width: 600px;
-}
-
 .clearfloat{
     clear: both;
 }

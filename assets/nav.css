@@ -1,11 +1,9 @@
-main{
-    margin-top: 60px;
-}
 .title {
     float: left;
+    position: fixed;
     z-index: 10;
     background-color: white;
-    width: 50%;
+    width: 1000px;
     font-size: 28px;
     margin-top: -7px;
     height: 59px;
@@ -20,16 +18,15 @@ nav a {
 }
 
 nav {
-    display: flex;
-    position: fixed;
-    
+    float: right;
+    position: sticky;
     font-size: 100%;
     top: 0;
     height: 60px;
     z-index: 10;
     background-color: white;
-    width: 100%;
-    padding-top: 5px;
+    width: 600px;
+    
 }
 
 nav ul {
@@ -37,6 +34,7 @@ nav ul {
     margin: 0;
     list-style: none;
     z-index: 10;
+    width: 100%;
 }
   
 nav ul li {
