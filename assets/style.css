@@ -2,6 +2,18 @@
     box-sizing: border-box;
 }
 
+.title {
+    float: left;
+    z-index: 10;
+    background-color: white;
+    width: 50%;
+    font-size: 28px;
+    margin-top: -7px;
+    height: 59px;
+    padding-top: 5px
+
+}
+
 .clearfloat{
     clear: both;
 }
