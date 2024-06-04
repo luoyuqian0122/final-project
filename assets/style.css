@@ -40,36 +40,6 @@ nav {
     text-align: center;
 }
 
-nav ul {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    z-index: 10;
-}
-  
-nav ul li {
-    display: inline-block;
-    width: 110px;
-    height: auto;
-    border: 1px solid white;
-    z-index: 10;
-}
-  
-nav ul li a {
-    display: block;
-    padding-top: 5px;
-    color: black;
-    text-decoration: none;
-    text-align: center;
-    z-index: 10;
-}
-  
-nav ul li:hover a {
-    color: gray;
-    z-index: 10;
-}
-
 .container1 {
     display: grid;
     padding: 20px;
@@ -92,4 +62,19 @@ nav ul li:hover a {
   
 #product {
     text-align: center;
+}
+
+.container2{
+    text-align: center;
+    background-color: rgba(226, 226, 226, 0.726);
+    padding: 50px;
+}
+.productbg{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(228, 184, 255, 0), rgba(255, 255, 255, 0.75), rgba(0,0,0,0));
+}
+
+td img{
+    width: 90%;
 }
