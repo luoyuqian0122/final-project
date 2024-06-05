@@ -38,6 +38,52 @@
             </div>
             
         </div>
+
+        <div class="review-section">
+            <h2>商品評價</h2>
+            <div class="rating">
+              <span>評分:</span>
+              <div class="stars">
+                <i class="star" data-value="1">&#9733;</i>
+                <i class="star" data-value="2">&#9733;</i>
+                <i class="star" data-value="3">&#9733;</i>
+                <i class="star" data-value="4">&#9733;</i>
+                <i class="star" data-value="5">&#9733;</i>
+              </div>
+            </div>
+            <div class="comment">
+              <textarea id="comment" rows="4" placeholder="留下您的評論..."></textarea>
+            </div>
+            <button id="submit-review">提交評價</button>
+          
+            <div class="submitted-reviews">
+              <h3>用戶評價</h3>
+              <div id="reviews-container"></div>
+            </div>
+        </div>
     </main>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        const stars = document.querySelectorAll('.star');
+        const reviewsContainer = document.getElementById('reviews-container');
+        let rating = 0;
+
+        stars.forEach(star => {
+            star.addEventListener('click', function() {
+            rating = this.getAttribute('data-value');
+            stars.forEach(s => s.classList.remove('active'));
+            this.classList.add('active');
+            this.previousElementSibling && this.previousElementSibling.classList.add('active');
+            let prevSibling = this.previousElementSibling;
+            while (prevSibling) {
+                prevSibling.classList.add('active');
+                prevSibling = prevSibling.previousElementSibling;
+            }
+            });
+        });
+
+        
+});
+    </script>
 </body>
 </html>
