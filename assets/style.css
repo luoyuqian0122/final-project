@@ -2,20 +2,7 @@
     box-sizing: border-box;
 }
 
-.title {
-    float: left;
-    position: fixed;
-    z-index: 10;
-    background-color: white;
-    width: 50%;
-    font-size: 28px;
-    margin-top: -7px;
-    height: 59px;
-    padding-top: 5px;
-    padding-left: 30px;
-    
 
-}
 
 .clearfloat{
     clear: both;

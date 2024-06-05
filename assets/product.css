@@ -1,11 +1,136 @@
-.productmain {
+*{
+    font-family: sans-serif;
+}
+
+.productmain{
     display: flex;
+    width: 800px;
+    margin: 0 auto;
 }
 
 .productimg img{
-    width: 40%;
+    width: 350px;
 }
 
 .productdetail{
-    width: 50%;
+    padding: 50px;
 }
+
+.producttitle{
+    font-size: larger;
+}
+
+button{
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.addcart{
+    width: 450px;
+    height: 40px;
+    margin: 20px 0;
+    
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.addcart:hover {
+    background-color: #e68900;
+    border-color: #ff9800;
+}
+  
+.addcart:active {
+    background-color: #cc7a00;
+    border-color: #cc7a00;
+}
+
+
+
+
+.review-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .review-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .stars {
+    display: flex;
+  }
+  
+  .star {
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: color 0.3s;
+  }
+  
+  .star:hover,
+  .star.active {
+    color: #ff9800;
+  }
+  
+  .comment {
+    margin-bottom: 15px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: none;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #e68900;
+  }
+  
+  .submitted-reviews {
+    margin-top: 30px;
+  }
+  
+  .submitted-reviews h3 {
+    margin-bottom: 15px;
+  }
+  
+  .review {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
