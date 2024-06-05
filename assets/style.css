@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    background-color: #F8F4E1;
 }
 
 
@@ -10,11 +11,13 @@
 
 #origintor {
     text-align: center;
+    color: #543310
 }
 
 .container1 {
     display: grid;
     padding: 20px;
+    color: #543310
 }
 
 .col1 {
@@ -34,11 +37,12 @@
   
 #product {
     text-align: center;
+    color: #543310;
 }
 
 .container2{
     text-align: center;
-    background-color: rgba(226, 226, 226, 0.726);
+    background-color: #F8F4E1;
     padding: 50px;
 }
 .productbg{

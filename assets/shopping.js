@@ -42,7 +42,7 @@ function updateCart() {
         quantityInput.addEventListener('change', (e) => updateQuantity(item.name, e.target.value));
         
         const removeButton = document.createElement('button');
-        removeButton.textContent = 'Remove';
+        removeButton.textContent = '刪除';
         removeButton.onclick = () => removeFromCart(item.name);
 
         actions.appendChild(quantityInput);

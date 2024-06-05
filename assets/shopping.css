@@ -1,7 +1,8 @@
 body {
-    background-color: #f9f9f9;
+    background-color: #F8F4E1;
     margin: 0;
     padding: 0;
+    color: #543310
 }
 
 .container {
@@ -24,7 +25,7 @@ h1 {
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: rgb(175, 143, 111,0.5);
 }
 
 .product img {
@@ -48,7 +49,7 @@ h1 {
 }
 
 button {
-    background-color: lightgray;
+    background-color: #AF8F6F;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -70,7 +71,7 @@ button:hover {
     border: 1px solid #ddd;
     padding: 10px;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: rgb(175, 143, 111,0.5);
 }
 
 .cart h3 {
@@ -115,7 +116,7 @@ button:hover {
 }
 
 .cart-item-actions button {
-    background-color: chocolate;
+    background-color: #AF8F6F;
     color: white;
     border: none;
     padding: 5px 10px;
@@ -128,6 +129,6 @@ button:hover {
 }
 
 .cart-item-actions button:hover {
-    background-color: #cc0000;
+    background-color: burlywood;
 }
 

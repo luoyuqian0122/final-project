@@ -2,13 +2,14 @@
     float: left;
     position: fixed;
     z-index: 10;
-    background-color: white;
+    background-color: #AF8F6F;
     width: 50%;
     font-size: 28px;
-    margin-top: -7px;
+    margin-top: -8px;
     height: 59px;
     padding-top: 5px;
     padding-left: 30px;
+    color: #F8F4E1;
 }
 
 nav a {
@@ -20,40 +21,44 @@ nav {
     float: right;
     font-size: 100%;
     top: 0;
-    height: 60px;
+    height: 59px;
     z-index: 10;
-    background-color: white;
+    background-color: #AF8F6F;
     width: 50%;
     position: sticky;
+    margin-top: -8px;
     
 }
 
 nav ul {
-    padding: 0;
+    padding: 6px;
     margin: 0;
     list-style: none;
     z-index: 10;
     width: 100%;
+    background-color: #AF8F6F;
 }
   
 nav ul li {
     display: inline-block;
     width: 110px;
     height: auto;
-    border: 1px solid white;
     z-index: 10;
+    background-color: #AF8F6F;
 }
   
 nav ul li a {
     display: block;
     padding-top: 5px;
-    color: black;
+    color: #F8F4E1;
     text-decoration: none;
     text-align: center;
     z-index: 10;
+    background-color: #AF8F6F;
 }
   
 nav ul li:hover a {
     color: gray;
     z-index: 10;
+    background-color: #AF8F6F;
 }
