@@ -45,6 +45,7 @@ nav ul li {
     height: auto;
     z-index: 10;
     background-color: #AF8F6F;
+    position: relative;
 }
   
 nav ul li a {
@@ -61,4 +62,30 @@ nav ul li:hover a {
     color: gray;
     z-index: 10;
     background-color: #AF8F6F;
+}
+
+nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #AF8F6F;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 20;
+}
+
+nav ul li .dropdown-content a {
+    color: #F8F4E1;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+nav ul li .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: gray;
+}
+
+nav ul li:hover .dropdown-content {
+    display: block;
 }
