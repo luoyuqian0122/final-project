@@ -1,0 +1,18 @@
+*a{
+    box-sizing: border-box;
+    background-color: #F8F4E1;
+}
+body {
+    user-select: none;
+    background-color: #F8F4E1;
+    margin:0px;
+    font-family: monospace;
+    font-weight: 400;
+}
+.card1{
+    background-color: #AF8F6F;
+    background-size: cover;
+    padding: 100px;
+    margin:50px 30px;
+
+}

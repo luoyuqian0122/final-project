@@ -1,0 +1,14 @@
+aside {
+    float:right;
+    width:30%;
+    text-align:left;
+}
+h2{
+    background-color: #AF8F6F;
+    color: #fff;
+}
+fieldset{
+    position: center;
+    color: #717171;
+    
+}
