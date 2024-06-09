@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登入</title>
+    <link rel="stylesheet" href="../assets/ab.css"/>
+    <link rel="stylesheet" href="../assets/style.css"/>
+    <link rel="stylesheet" href="../assets/nav.css"/>
+</head>
+<body>
+    <p class="title">那些蛻變的日子</p>
+    <nav>
+        <ul>
+            <li><a href="index.html">首頁</a></li>
+            <li class="dropdown">
+                <a href="#">商品</a>
+                    <div class="dropdown-content">
+                        <a href="pages/">熱賣商品</a>
+                        <a href="pages/">其他商品</a>
+                    </div>
+            </li>
+            <li class="dropdown">
+                <a href="../pages/sing.html">會員登入</a>
+                    <div class="dropdown-content">
+                        <a href="../pages/dr.html">會員註冊</a>
+                        <a href="../pages/lishi.html">消費紀錄</a>
+                        <a href="../pages/pfjl.html">評價</a>
+                        <a href="../pages/gz.html">個人基本資料</a>
+                    </div>
+            </li>
+            <li><a href="#origintor">關於我們</a></li>
+            <li><a href="pages/shopping.html" target="_blank">購物車</a></li>
+        </ul>
+    </nav>
+    
+<main>
+    <h2>登入與註冊</h2>
+    <fieldset>
+        <div class="card1">
+            <from method="post" action="final-project-main/index.html" >
+                帳號 : <input type="text" name="user_name" ><br>
+                密碼 : <input type="text" name="password" /><br>
+                <input type="button" value="送出" onClick="window.location = '../index.html'">
+                <input type="reset" value="取消">
+                <input type="button" value="註冊" onClick="window.location = './dr.html'">
+            </from>
+        </div>
+        </fieldset>
+        
+</main>
+</body>
+</html>
