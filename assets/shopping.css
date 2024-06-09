@@ -1,7 +1,5 @@
 body {
     background-color: #F8F4E1;
-    margin: 0;
-    padding: 0;
     color: #543310
 }
 
@@ -9,10 +7,6 @@ body {
     width: 80%;
     margin: auto;
     overflow: hidden;
-}
-
-h1 {
-    margin-top: 20px;
 }
 
 .products, .cart {
@@ -131,4 +125,3 @@ button:hover {
 .cart-item-actions button:hover {
     background-color: burlywood;
 }
-
