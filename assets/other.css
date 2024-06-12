@@ -1,0 +1,40 @@
+body {
+    background-color:#eee6bf;
+    box-sizing: border-box;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.product {
+    width: calc(33.33% - 20px);
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: #F8F4E1 ;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product p {
+    margin: 5px 0;
+}
