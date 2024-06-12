@@ -1,7 +1,6 @@
-*{
-    font-family: sans-serif;
+* {
+  background-color: #F8F4E1;
 }
-
 .productmain{
     display: flex;
     width: 800px;
@@ -61,7 +60,6 @@ button{
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    background-color: #f9f9f9;
   }
   
   .review-section h2 {
